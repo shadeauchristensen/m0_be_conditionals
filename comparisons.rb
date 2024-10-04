@@ -56,21 +56,21 @@ puts number_students <= 21
 
 puts 4 < 9
 #YOU DO: Explain.
-
+# itll puts true, as 4 is less than 9
 books = 3
 puts 4 < books
 # YOU DO: Explain.
-
+# puts 4 is less than the 3 books
 friends = 6
 siblings = 2
 puts friends > siblings
 # YOU DO: Explain.
-
+# puts more friends than siblings = true
 attendees = 9
 meals = 8
 puts attendees != meals
 # YOU DO: Explain.
-
+# puts false as not enough meals to equal attendees
 
 #-------------------
 # PART 3: Logical Operators
