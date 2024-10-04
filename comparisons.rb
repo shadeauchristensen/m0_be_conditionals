@@ -90,18 +90,26 @@ loves_dog_park = false
 loves_treats = true
 age = 1
 
+
 # YOU DO:
 # Determine if the dog loves to play and loves treats
-
-
+puts loves_to_play && loves_treats
+# true
 # Determine if the dog loves to play and loves the dog park
-
-
+puts loves_to_play && loves_dog_park
+# false
 # Determine if the dog loves to play or loves the dog park
-
-
+puts loves_to_play || loves_dog_park
+# true
 # Determine if the dog loves to play and is a puppy
 # Assume that a dog is a puppy if it is less than 2 years old.
-
+puts loves_to_play && 
+puppy = age < 2
+# true
 # What did your final line of code evaluate to? Why do you think that is? Explain.
-# ANSWER:
+# ANSWER: gotta add thiongs sometimes
+# true
+# false
+# true
+# true
+
